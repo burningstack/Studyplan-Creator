@@ -1,0 +1,39 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "description": "PV-Studium Ablaufplan",
+  "main": "main.js",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "express": "4.17.1",
+    "html-to-image": "0.1.1"
+  },
+  "devDependencies": {
+    "eslint": "5.16.0",
+    "eslint-plugin-sonarjs": "0.3.0",
+    "place": "1.2.1",
+    "less": "3.9.0",
+    "less-plugin-clean-css": "1.5.1",
+    "browserify": "16.2.3",
+    "babel-cli": "6.26.0",
+    "babel-preset-minify": "0.4.3"
+  },
+  "scripts": {
+    "build": "npm run clean:dist && mkdir dist && npm run lint && npm run static:min && npm run css && npm run css:min && npm run js && npm run js:min",
+    "debug": "npm run clean:dist && mkdir dist && npm run lint && npm run static && npm run css && npm run js ",
+    "lint": "eslint -c .eslintrc.json frontend/js/** && eslint -c .eslintrc.json backend/manager/** && eslint -c .eslintrc.json backend/server.js",
+    "static": "cp -r frontend/assets/** dist && cp frontend/index.html dist/index.html",
+    "static:min": "npm run static && place dist/index.html style.css style.min.css && place dist/index.html main.js main.min.js",
+    "css": "lessc frontend/styles/style.less dist/style.css",
+    "css:min": "lessc --clean-css frontend/styles/style.less dist/style.min.css && rm dist/style.css",
+    "js": "browserify frontend/js/Main.js > dist/main.js",
+    "js:min": "npm run js && babel --preset minify dist/main.js > dist/main.min.js && rm dist/main.js",
+    "start": "cd backend && node server.js 8080",
+    "clean": "npm run clean:dist && rm -rf node_modules",
+    "clean:dist": "rm -rf dist",
+    "clearPD" : "rm -rf backend/persistentData/**",
+    "seleniumTest": "npm run clearPD && cd testing && java -jar seleniumTest.jar"
+  },
+  "author": "Tim Schmidt, Philip Densborn",
+  "license": "ISC"
+}

@@ -1,0 +1,204 @@
+[
+  {
+    "name": "Informatik-SMS WS",
+    "sem": 6,
+    "maxEctsPerSem": 30,
+    "mods": [
+      {
+        "name": "Wahlpflichtfach",
+        "ects": 5
+      },
+      {
+        "name": "ITS-Praktikum",
+        "ects": 10
+      },
+      {
+        "name": "Bachelorarbeit",
+        "ects": 15
+      },
+      {
+        "name": "Softwaremanagement",
+        "ects": 5
+      },
+      {
+        "name": "Wahlpflichtfach",
+        "ects": 5
+      },
+      {
+        "name": "Wahlpflichtfach",
+        "ects": 5
+      },
+      {
+        "name": "Teamprojekt",
+        "ects": 10
+      },
+      {
+        "name": "Fachseminar",
+        "ects": 5
+      },
+      {
+        "name": "Fachseminar",
+        "ects": 5
+      },
+      {
+        "name": "Wissenschaftliches Arbeiten",
+        "ects": 5
+      },
+      {
+        "name": "Entwicklung mobiler Anwendungen",
+        "ects": 5
+      },
+      {
+        "name": "Entwicklung verteilter Anwendungen",
+        "ects": 5
+      },
+      {
+        "name": "Mobile Kommunikationssysteme",
+        "ects": 5
+      },
+      {
+        "name": "IT-Sicherheit mobiler Systeme",
+        "ects": 5
+      },
+      {
+        "name": "Ortsabhängige Systeme",
+        "ects": 5
+      },
+      {
+        "name": "Grafische Benutzeroberflächen",
+        "ects": 5
+      },
+      {
+        "name": "Parallele Programmierung",
+        "ects": 5
+      },
+      {
+        "name": "Theoretische Informatik",
+        "ects": 5
+      },
+      {
+        "name": "Datenbanken",
+        "ects": 5
+      },
+      {
+        "name": "IT-Sicherheit",
+        "ects": 5
+      },
+      {
+        "name": "Web-Technologien",
+        "ects": 5
+      },
+      {
+        "name": "Datenstrukturen und Algorithmen",
+        "ects": 5
+      },
+      {
+        "name": "Softwareentwurf und -test",
+        "ects": 5
+      },
+      {
+        "name": "Lineare Algebra",
+        "ects": 5
+      },
+      {
+        "name": "Angewandte Logik",
+        "ects": 5
+      },
+      {
+        "name": "Online- und Medienrecht",
+        "ects": 5
+      },
+      {
+        "name": "Rechnernetze",
+        "ects": 5
+      },
+      {
+        "name": "Objektorientierte Programmierung",
+        "ects": 10
+      },
+      {
+        "name": "Grundlagen der Mathematik",
+        "ects": 5
+      },
+      {
+        "name": "Technische Informatik",
+        "ects": 5
+      },
+      {
+        "name": "Systemadministration",
+        "ects": 5
+      }
+    ]
+  },
+  {
+    "name": "WS2019",
+    "sem": 4,
+    "maxEctsPerSem": 20,
+    "mods": [
+      {
+        "name": "Wahlpflichtfach",
+        "ects": 5
+      },
+      {
+        "name": "Wahlpflichtfach",
+        "ects": 5
+      },
+      {
+        "name": "Wahlpflichtfach",
+        "ects": 5
+      },
+      {
+        "name": "Wahlpflichtfach",
+        "ects": 5
+      },
+      {
+        "name": "Wahlpflichtfach",
+        "ects": 5
+      },
+      {
+        "name": "Wahlpflichtfach",
+        "ects": 5
+      },
+      {
+        "name": "Wahlpflichtfach",
+        "ects": 5
+      },
+      {
+        "name": "Wahlpflichtfach",
+        "ects": 5
+      },
+      {
+        "name": "Wahlpflichtfach",
+        "ects": 5
+      },
+      {
+        "name": "Wahlpflichtfach",
+        "ects": 5
+      },
+      {
+        "name": "Wahlpflichtfach",
+        "ects": 5
+      },
+      {
+        "name": "Wahlpflichtfach",
+        "ects": 5
+      },
+      {
+        "name": "Wahlpflichtfach",
+        "ects": 5
+      },
+      {
+        "name": "Wahlpflichtfach",
+        "ects": 5
+      },
+      {
+        "name": "Wahlpflichtfach",
+        "ects": 5
+      },
+      {
+        "name": "Grundlagen der Mathematik",
+        "ects": 5
+      }
+    ]
+  }
+]
