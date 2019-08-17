@@ -1,5 +1,4 @@
 # Studyplan-Creator
-Node.js project which allows one user to create studyplans and -modules
 
 ## Infos
 
